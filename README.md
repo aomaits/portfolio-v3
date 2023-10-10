@@ -36,3 +36,9 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+# Credits
+Free Code Camp SvelteKit & Tailwind CSS Portfolio tutorial https://www.freecodecamp.org/news/learn-sveltekit-and-tailwind-css-by-building-a-web-portfolio/
+
+Particle.js background https://vincentgarreau.com/particles.js/
