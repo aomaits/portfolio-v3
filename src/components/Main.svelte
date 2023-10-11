@@ -24,7 +24,7 @@
             <p class="text-base sm:text-lg md:text-xl">
                 Some of my <span class="text-yellow-400">favorite tech</span> includes JavaScript, CSS / TailwindCSS, Node.js + Express.js & SQL / MongoDB.
             </p>
-            <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-blue-950 cursor-pointer" href="https://www.linkedin.com/in/abe-omaits/" target="_blank">
+            <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-blue-950 cursor-pointer" href="https://www.linkedin.com/in/abe-omaits/" target="_blank">
                 <div class="absolute top-0 right-full w-full h-full bg-yellow-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
         </div>
         <h4 class="relative z-9">Get in touch&rarr;</h4>
@@ -44,10 +44,6 @@
                 Curious to <span class="poppins text-yellow-400">see</span> my work?
             </h3>
         </div>
-        <a href="" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-yellow-700 duration-200">
-            <i class="fa-regular fa-circle-play" />
-            <p>Watch the video</p>   
-        </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p> This fullstack group project is a childcare resource-sharing app built with <strong class="text-yellow-400">React, GraphQL,</strong> and <strong class="text-yellow-400">MongoDB</strong>. It takes a village to raise a child, so find your village today! 
