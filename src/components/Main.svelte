@@ -1,5 +1,12 @@
 <script>
+    import Step from"./Step.svelte";
 
+    let steps = [
+        {name: 'The Village', icon: 'fa-solid fa-house'},
+        {name: 'JumpItNYC', icon: 'fa-solid fa-pizza-slice'},
+        {name: 'Is My Park Safe?', icon: 'fa-solid fa-map-location-dot'}
+    ]
+    
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -35,7 +42,17 @@
             <i class="fa-regular fa-circle-play" />
             <p>Watch the video</p>   
         </a>
-        
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps[0]}>
+
+            </Step>
+            <Step step={steps[1]}>
+            
+            </Step>
+            <Step step={steps[2]}>
+            
+            </Step>
+        </div>
     </section>
 
 </main>
