@@ -1,5 +1,18 @@
 <script>
+    import Step from"./Step.svelte";
 
+    let steps = [
+        {name: 'The Village', icon: 'fa-solid fa-house'},
+        {name: 'JumpItNYC', icon: 'fa-solid fa-pizza-slice'},
+        {name: 'Is My Park Safe?', icon: 'fa-solid fa-map-location-dot'}
+    ];
+
+    let benefits = [
+        {name: 'a driven developer', description: 'I recently completed the University of Texas at Austin / edX full-stack bootcamp. I fully dedicated myself to the developer experience, pouring my time and energy into class sessions and challenges. Having excelled in the coursework, I\'m now energetically seeking the enterprise where I can immediately begin to contribute!'},
+        {name: 'an enthusiastic learner', description: 'I love learning! I have a reputation for asking good questions and I love expanding my understanding. In my free time, I\'m often listening to podcasts and reading articles on programming topics so that I can have a better understanding of the space.'},
+        {name: 'an excellent colloborator', description: 'My favorite projects have been group projects. I greatly look forward to working for and celebrating with my next team. I\'ve seen how diversity of thought and outlook has proved crucial in whiteboarding, debugging, and beyond while programming. I am excited to join other engineers and develop great things together!'}
+    ];
+    
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -22,4 +35,55 @@
         </div>
     </section>
 
+    <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
+        <div class="flex flex-col gap-2 text-center">
+            <h6 class="text-lg sm:text-xl md:text-2xl">
+                A few of my creative endeavors.
+            </h6>
+            <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+                Curious to <span class="poppins text-yellow-400">see</span> my work?
+            </h3>
+        </div>
+        <a href="" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-yellow-700 duration-200">
+            <i class="fa-regular fa-circle-play" />
+            <p>Watch the video</p>   
+        </a>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps[0]}>
+                <p> This fullstack group project is a childcare resource-sharing app built with <strong class="text-yellow-400">React, GraphQL,</strong> and <strong class="text-yellow-400">MongoDB</strong>. It takes a village to raise a child, so find your village today! 
+            </Step>
+            <Step step={steps[1]}>
+                <p> An arcade-style, retro-inspired side-scroller game built as another group project. We used a <strong class="text-yellow-400">SQL</strong> database leaderboard and run the game in <strong class="text-yellow-400">Javascript</strong>. Avoid the rats, get the pizza!
+            </Step>
+            <Step step={steps[2]}>
+                <p> A front-end website allowing users to see reported criminal activity in and around Austin city parks. This project utilized calls to several <strong class="text-yellow-400">third-party APIs</strong> along with <strong class="text-yellow-400">HTML, TailwindCSS,</strong> and <strong class="text-yellow-400">Javascript</strong>. 
+            </Step>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
+        <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-yellow-400 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-yellow-400 py-4">
+
+            <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
+            <h3 class="font-semibold text-3xl sm:text-4xl md:5xl">
+                A bit <span class="poppins text-yellow-400">about</span> me.
+            </h3>
+        </div>
+        <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am...</p>
+        <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
+            {#each benefits as benefit, index}
+                <div class="flex gap-6 sm:gap-8">
+                    <p class="poppins text-4xl sm:text-5xl md:text-6xl text-gray-400 font-semibold">
+                        0{index+1}
+                    </p>
+                    <div class="flex flex-col gap-6 sm:gap-8">
+                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                            {benefit.name}
+                        </h3>
+                        <p>{benefit.description}</p>
+                    </div>
+                </div>
+            {/each}
+        </div>
+    </section>
 </main>
