@@ -1,4 +1,7 @@
 # Abe's Portfolio V3
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=Svelte&logoColor=FFFFFF)
+<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=Tailwind CSS&logoColor=FFFFFF" alt="Tailwind CSS">
 
 ## Description
 This project was started to deal with a simple problem: my [old HTML & CSS portfolio](https://aomaits.github.io/portfolio-1/) badly needed an update. 
@@ -18,3 +21,8 @@ Users are invited to utilize the site to learn a bit about me and my coding jour
 The obvious and most important credit here is the [portfolio tutorial from Free Code Camp](https://www.freecodecamp.org/news/learn-sveltekit-and-tailwind-css-by-building-a-web-portfolio/) that was used to create this project. A big thanks to James McArthur, aka Smoljames, for the clear walkthrough code-along! 
 
 Within that project, they utilized the [particle.js background created by Vincent Garreau](https://vincentgarreau.com/particles.js/). Thanks Vincent!
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project is open source and available under a [MIT license](https://github.com/aomaits/portfolio-v3/blob/main/LICENSE).
