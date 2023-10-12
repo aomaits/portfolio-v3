@@ -15,10 +15,8 @@
 	%sveltekit.head%
 </head>
 
-<!--  sets bg and text for whole page--change later -->
+<!--  sets bg and text for body-->
 <body data-sveltekit-preload-data="hover" class="bg-blue-950 text-white relative"> 
-	
-	<!-- not sure what this z index is doing exactly... -->
 	<div style="display: contents" class="relative z-[1]">%sveltekit.body%</div>
 	<!-- particles.js background -->
 	<div class="absolute min-h-screen top-0 left-0 w-full z-[-1] opacity-50">

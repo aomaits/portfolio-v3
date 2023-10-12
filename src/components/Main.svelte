@@ -2,9 +2,9 @@
     import Step from"./Step.svelte";
 
     let steps = [
-        {name: 'The Village', icon: 'fa-solid fa-house'},
-        {name: 'JumpItNYC', icon: 'fa-solid fa-pizza-slice'},
-        {name: 'Is My Park Safe?', icon: 'fa-solid fa-map-location-dot'}
+        {name: 'The Village', icon: 'fa-solid fa-house', href: 'https://the-village-pr3-499485f65b78.herokuapp.com/'},
+        {name: 'JumpItNYC', icon: 'fa-solid fa-pizza-slice', href: 'https://shielded-sierra-32207-ce4eacbcd6c6.herokuapp.com/'},
+        {name: 'Is My Park Safe?', icon: 'fa-solid fa-map-location-dot', href: 'https://liq543.github.io/Park-Safe/'}
     ];
 
     let benefits = [
@@ -24,7 +24,7 @@
             <p class="text-base sm:text-lg md:text-xl">
                 Some of my <span class="text-yellow-400">favorite tech</span> includes JavaScript, CSS / TailwindCSS, Node.js + Express.js & SQL / MongoDB.
             </p>
-            <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-blue-950 cursor-pointer" href="https://www.linkedin.com/in/abe-omaits/" target="_blank">
+            <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-blue-950 cursor-pointer" href="https://www.linkedin.com/in/abe-omaits/" target="_blank">
                 <div class="absolute top-0 right-full w-full h-full bg-yellow-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
         </div>
         <h4 class="relative z-9">Get in touch&rarr;</h4>
@@ -38,16 +38,12 @@
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-lg sm:text-xl md:text-2xl">
-                A few of my creative endeavors.
+                Some of the projects
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-yellow-400">see</span> my work?
+                I'm <span class="poppins text-yellow-400">most excited</span> about! 
             </h3>
         </div>
-        <a href="" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-yellow-700 duration-200">
-            <i class="fa-regular fa-circle-play" />
-            <p>Watch the video</p>   
-        </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p> This fullstack group project is a childcare resource-sharing app built with <strong class="text-yellow-400">React, GraphQL,</strong> and <strong class="text-yellow-400">MongoDB</strong>. It takes a village to raise a child, so find your village today! 
@@ -64,9 +60,8 @@
     <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
         <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-yellow-400 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-yellow-400 py-4">
 
-            <h6 class="text-lg sm:text-xl md:text-2xl">Want to know more?</h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:5xl">
-                A bit <span class="poppins text-yellow-400">about</span> me.
+                Here's a bit <span class="poppins text-yellow-400">about</span> me.
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am...</p>
