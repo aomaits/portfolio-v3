@@ -3,14 +3,11 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
-    adapter: adapter({
-      target: '#svelte',
-      // strict: false,
-    }),
-    // paths: {
-    //   base: process.env.NODE_ENV === 'production' ? '/aomaits.github.io/portfolio-v3' : '',
-    // }
+    adapter: adapter()
   },
   preprocess: vitePreprocess()
 };
+
+config.paths = { base: process.argv.includes('portfolio-v3') ? '' : process.env.BASE_PATH }
+
 export default config;
