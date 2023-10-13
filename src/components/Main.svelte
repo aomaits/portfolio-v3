@@ -31,7 +31,7 @@
             </a>
         </div>
         <div class="relative shadow-2xt grid place-items-center">
-            <img src={"images/Abe.jpg"} alt="Abe Omaits profile" class="object-cover z-[2] max-h-[70vh]"/>
+            <img src={"images/Abe-cropped.png"} alt="Abe Omaits profile" class="object-cover z-[2] max-h-[70vh]"/>
         </div>
     </section>
 
