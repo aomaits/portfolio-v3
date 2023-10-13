@@ -5,11 +5,11 @@ const config = {
   kit: {
     adapter: adapter({
       target: '#svelte',
-      strict: false,
+      // strict: false,
     }),
-    paths: {
-      base: process.env.NODE_ENV === 'production' ? '/aomaits.github.io/portfolio-v3/' : '',
-    }
+    // paths: {
+    //   base: process.env.NODE_ENV === 'production' ? '/aomaits.github.io/portfolio-v3' : '',
+    // }
   },
   preprocess: vitePreprocess()
 };
