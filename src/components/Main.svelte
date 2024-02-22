@@ -3,7 +3,7 @@
 
     let steps = [
         {name: 'The Village', icon: 'fa-solid fa-house', href: 'https://the-village-pr3-499485f65b78.herokuapp.com/'},
-        {name: 'JumpItNYC', icon: 'fa-solid fa-pizza-slice', href: 'https://shielded-sierra-32207-ce4eacbcd6c6.herokuapp.com/'},
+        {name: 'JumpItNYC', icon: 'fa-solid fa-pizza-slice', href: 'https://jump-it-nyc-20d7358ef139.herokuapp.com/'},
         {name: 'Is My Park Safe?', icon: 'fa-solid fa-map-location-dot', href: 'https://liq543.github.io/Park-Safe/'}
     ];
 
