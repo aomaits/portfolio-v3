@@ -18,5 +18,12 @@
                 </span></sup>
             </a>
         </p>
+        <p><b class="pr-2">Resume</b>
+            <a class="text-yellow-400" target="_blank" href="https://drive.google.com/file/d/1mS0UBwBJZXFTVzoSMQZezmassX8qGUFZ/view?usp=sharing/">
+                Abe Omaits<sup><span class="text-xs scale-75 pl-0.5">
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]" />
+                </span></sup>
+            </a>
+        </p>
     </div>
 </footer>
